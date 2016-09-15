@@ -1,0 +1,109 @@
+// out: styles.css, sourcemap: false, compress: false
+
+
+@white:white;
+@grey:#4A4A4A;
+
+body {
+  margin:0;
+  padding:0;
+  header{
+    background-image: url(img/cite_des_sciences.jpg);
+    background-size: cover;
+    width: 100%;
+    img{
+      width: 180px;
+      height: 60px;
+      padding: 20px 0 0 20px;
+    }
+    h1{
+      margin-top: 100px;
+      color: @white;
+      font-size: 55px;
+      font-weight: 800;
+      text-align: center;
+    }
+    .bouton{
+      margin-top: 100px;
+      text-align: center;
+      margin-bottom: 60px;
+      a{
+        opacity: 0.8;
+        text-decoration: none;
+        color: @white;
+        background-color: #D0002E;
+        border: 2px solid #D0002E;
+        border-radius: 20px;
+        padding: 10px 20px;
+        &:hover{
+          opacity: 1;
+        }
+      }
+    }
+
+  }
+  .portfolio{
+    .c-linetitle{
+      .linetitle{
+        text-align: center;
+        h2{
+          color: @grey;
+          font-weight: 700;
+          font-size: 55px;
+          padding-bottom: 20px;
+        }
+    }
+      .profil{
+        border: 2px solid #E4E4E4;
+        margin-top: 150px;
+        text-align: center;
+        h3{
+          color: @grey;
+          font-size: 30px;
+          font-weight: 700;
+        }
+        p{
+          color: @grey;
+          font-size: 17px;
+        }
+        ul{
+          padding-top: 20px;
+          padding-bottom: 20px;
+          display: flex;
+          justify-content: center;
+          li{
+            list-style: none;
+            padding-left: 10px;
+            a{
+              text-decoration: none;
+              background-color: @grey;
+              border-radius: 100%;
+              padding: 15px;
+              i{
+                color: @white;
+              }
+            }
+          }
+        }
+        .p-profil{
+          border-radius: 100%;
+          margin-top: -120px;
+        }
+      }
+    }
+  }
+  footer{
+    background-color: #40273D;
+    margin-top: 40px;
+    .p-simplon{
+      text-align: center;
+      padding: 100px 0;
+    }
+    p{
+      color: @white;
+      text-align: center;
+      font-size: 25px;
+      padding-top: 50px;
+    }
+  }
+}

@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+body header {
+  background-image: url(img/cite_des_sciences.jpg);
+  background-size: cover;
+  width: 100%;
+}
+body header img {
+  width: 180px;
+  height: 60px;
+  padding: 20px 0 0 20px;
+}
+body header h1 {
+  margin-top: 100px;
+  color: white;
+  font-size: 55px;
+  font-weight: 800;
+  text-align: center;
+}
+body header .bouton {
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+body header .bouton a {
+  opacity: 0.8;
+  text-decoration: none;
+  color: white;
+  background-color: #D0002E;
+  border: 2px solid #D0002E;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+body header .bouton a:hover {
+  opacity: 1;
+}
+body .portfolio .c-linetitle .linetitle {
+  text-align: center;
+}
+body .portfolio .c-linetitle .linetitle h2 {
+  color: #4A4A4A;
+  font-weight: 700;
+  font-size: 55px;
+  padding-bottom: 20px;
+}
+body .portfolio .c-linetitle .profil {
+  border: 2px solid #E4E4E4;
+  margin-top: 150px;
+  text-align: center;
+}
+body .portfolio .c-linetitle .profil h3 {
+  color: #4A4A4A;
+  font-size: 30px;
+  font-weight: 700;
+}
+body .portfolio .c-linetitle .profil p {
+  color: #4A4A4A;
+  font-size: 17px;
+}
+body .portfolio .c-linetitle .profil ul {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+body .portfolio .c-linetitle .profil ul li {
+  list-style: none;
+  padding-left: 10px;
+}
+body .portfolio .c-linetitle .profil ul li a {
+  text-decoration: none;
+  background-color: #4A4A4A;
+  border-radius: 100%;
+  padding: 15px;
+}
+body .portfolio .c-linetitle .profil ul li a i {
+  color: white;
+}
+body .portfolio .c-linetitle .profil .p-profil {
+  border-radius: 100%;
+  margin-top: -120px;
+}
+body footer {
+  background-color: #40273D;
+  margin-top: 40px;
+}
+body footer .p-simplon {
+  text-align: center;
+  padding: 100px 0;
+}
+body footer p {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 50px;
+}
